@@ -1,5 +1,6 @@
 import SwiftUI
-import ComposableArchitecture
+import Combine
+import ComposableArch
 
 public enum PrimeModalAction {
     case saveFavoritePrimeTapped
@@ -70,3 +71,5 @@ public struct PrimeModal: View {
         return true
     }
 }
+
+
